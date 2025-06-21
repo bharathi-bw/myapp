@@ -52,6 +52,14 @@ class Home extends StatelessWidget {
               },
               child: Text("Business Card"),
             ),
+            FilledButton(
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => DiceRollerGame()),
+                );
+              },
+              child: Text("Dice Roller Game"),
+            ),
           ],
         ),
       ),
