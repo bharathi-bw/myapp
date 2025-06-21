@@ -4,6 +4,7 @@ import 'package:myapp/pages/birthday_card.dart';
 import 'package:myapp/pages/business_card_app.dart';
 import 'package:myapp/pages/button_list.dart';
 import 'package:myapp/pages/counter_app.dart';
+import 'package:myapp/pages/dice_roller_game.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
